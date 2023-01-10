@@ -20,7 +20,7 @@ basic.showLeds(`
     # . # . #
     `)
 basic.pause(1000)
-basic.showString(" please wait to press button after temp and music play")
+basic.showString(" please wait")
 music.playMelody("C5 G B A F A C5 B ", 120)
 basic.showNumber(input.temperature())
 Paddle_a = game.createSprite(2, 4)
